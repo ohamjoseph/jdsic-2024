@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+@import "leaflet/dist/leaflet.css";
+
+.subtitle {
+    color: #8d97ad;
+    line-height: 24px;
+    font-size: 13px;
+}
