@@ -1,0 +1,68 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.cover {
+  position: relative;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cover2 {
+    position: relative;
+    height: 60vh;
+    color: white;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 28, 85, 0.9); /* Couleur noire avec opacité de 50% */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-bg-jaune{
+  background-color: #f4bc04;
+}
+
+.border-jaune{
+  border-color: #f4bc04;
+}
+
+.jaune{
+  color: #f4bc04;
+}
+.titre{
+  font-size: 4rem;
+}
+
+#section1 {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/jdsic-d1986.appspot.com/o/international-conference-1597531_1280.jpg?alt=media&token=a7b36cd5-6b85-4e37-a430-7eeb67cd92a8"); /* Remplacez par l'URL de votre image */
+}
+
+#section2 {
+  background-image: url('https://example.com/image2.jpg'); /* Remplacez par l'URL de votre image */
+}
+
+#section3 {
+  background-image: url('https://example.com/image3.jpg'); /* Remplacez par l'URL de votre image */
+}
+
+

@@ -1,0 +1,13 @@
+.cover2 {
+    position: relative;
+    height: 60vh;
+    color: white;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#map {
+    height: 100%;
+}

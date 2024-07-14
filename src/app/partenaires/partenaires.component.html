@@ -1,0 +1,21 @@
+<app-tp-section title="NOS PARTENAIRES">
+    <div class=" d-flex flex-wrap align-items-center justify-content-around ">
+
+        <div *ngFor="let partenaire of partenaires">
+            <img src="{{partenaire.src}}" alt="{{partenaire.alt}}" class="img-fluid align-self-stretch my-2 me-2">
+        </div>
+
+    </div>
+</app-tp-section>
+
+<app-tp-section title="NOS SPONSORS">
+    <div class=" d-flex flex-wrap align-items-center justify-content-around ">
+
+        <div *ngFor="let partenaire of sponsores">
+            <img src="{{partenaire.src}}" alt="{{partenaire.alt}}" class="img-fluid align-self-stretch my-2 me-2">
+        </div>
+
+    </div>
+</app-tp-section>
+
+
