@@ -14,3 +14,9 @@
     line-height: 24px;
     font-size: 13px;
 }
+
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+    color: #001c55;
+    border-bottom: 4px solid #001c55; /* Ajustez la couleur et l'épaisseur selon vos préférences */
+}
